@@ -1,0 +1,27 @@
+{
+  "name": "My WordPress Theme",
+  "description": "A style-free theme to get you started on an HTML5-based WordPress theme of your own.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Adam Duckett",
+    "twitter": "@adam_duckett",
+    "url": "https://adamduckett.io"
+  },
+  "repository": {
+    "type": "WordPress",
+    "url": "https://mywordpresstheme.co.uk"
+  },
+  "license": {
+    "type": "BSD 2-Clause",
+    "url": "http://opensource.org/licenses/bsd-license.php"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-header": "^1.7.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.0.4",
+    "gulp-util": "^3.0.6"
+  }
+}
