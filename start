@@ -1,6 +1,10 @@
 #!/bin/sh
 
+<<<<<<< HEAD
 echo "Installing a clean Sass-based WordPress theme project, won't be a sec..."
+=======
+echo "Installing a clean Sass-based WordPress project, won't be a sec..."
+>>>>>>> ec72546da8478784f38aa4fa146446499a9d7779
 
 rm -rf .git/            && \
 npm install             && \
