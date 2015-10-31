@@ -3,6 +3,9 @@
 *.css.map
 *.scssc
 
+# Node / Grunt
+node_modules
+
 # System files
 *.DS_Store
 *[Tt]humbs.db
