@@ -1,2 +1,2 @@
 # ducky-wordpress
-A WordPress project boilerplate using Gulp and Sass.
+A custom WordPress theme boilerplate using Gulp and Sass.

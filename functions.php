@@ -1,9 +1,4 @@
 <?php
-/**
- * @package WordPress
- * @subpackage HTML5-Reset-WordPress-Theme
- * @since HTML5 Reset 2.0
- */
 
 	// Options Framework (https://github.com/devinsays/options-framework-plugin)
 	if ( !function_exists( 'optionsframework_init' ) ) {
@@ -13,7 +8,6 @@
 
 	// Theme Setup (based on twentythirteen: http://make.wordpress.org/core/tag/twentythirteen/)
 	function html5reset_setup() {
-		load_theme_textdomain( 'html5reset', get_template_directory() . '/languages' );
 		add_theme_support( 'automatic-feed-links' );
 		add_theme_support( 'structured-post-formats', array( 'link', 'video' ) );
 		add_theme_support( 'post-formats', array( 'aside', 'audio', 'chat', 'gallery', 'image', 'quote', 'status' ) );
@@ -94,7 +88,7 @@
 	//    add_action('init', 'removeHeadLinks');
 
 	// Custom Menu
-	register_nav_menu( 'primary', __( 'Navigation Menu', 'html5reset' ) );
+	register_nav_menu( 'primary', 'Navigation Menu' );
 
 	// Widgets
 	if ( function_exists('register_sidebar' )) {

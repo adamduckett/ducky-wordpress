@@ -1,8 +1,8 @@
-<form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
-    <div>
-        <label for="s" class="screen-reader-text"><?php _e('Search for:','html5reset'); ?></label>
-        <input type="search" id="s" name="s" value="" />
-        
-        <input type="submit" value="<?php _e('Search','html5reset'); ?>" id="searchsubmit" />
-    </div>
-</form>
+<form role="search" method="get" class="site-search" action="<?php echo home_url( '/' ); ?>">
+  <div>
+    <label for="site-search__field" class="screen-reader-text">Search for:</label>
+    <input type="search" class="site-search__field" name="site-search__field" value="">
+
+    <input type="submit" value="Search" class="site-search__submit">
+  </div>
+</form><!-- /site-search -->

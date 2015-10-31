@@ -1,11 +1,7 @@
 {
-<<<<<<< HEAD
-  "name": "ducky-wordpress",
-=======
-  "name": "My WordPress Theme",
->>>>>>> ec72546da8478784f38aa4fa146446499a9d7779
-  "description": "A style-free theme to get you started on an HTML5-based WordPress theme of your own.",
-  "version": "0.1.0",
+  "name": "Ducky Theme",
+  "description": "A custom WordPress theme boilerplate featuring Gulp and Sass.",
+  "version": "1.0.0",
   "author": {
     "name": "Adam Duckett",
     "twitter": "@adam_duckett",
@@ -13,18 +9,13 @@
   },
   "repository": {
     "type": "WordPress",
-<<<<<<< HEAD
-    "url": "https://ducky-wordpress.co.uk"
+    "url": "https://github.com/adamduckett/ducky-wordpress"
   },
-  "license": "Apache",
-=======
-    "url": "https://mywordpresstheme.co.uk"
-  },
-  "license": {
-    "type": "BSD 2-Clause",
-    "url": "http://opensource.org/licenses/bsd-license.php"
-  },
->>>>>>> ec72546da8478784f38aa4fa146446499a9d7779
+  "keywords": [
+    "wordpress",
+    "wordpress theme",
+    "wordpress template"
+  ],
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^2.3.1",
@@ -33,5 +24,6 @@
     "gulp-plumber": "^1.0.1",
     "gulp-sass": "^2.0.4",
     "gulp-util": "^3.0.6"
-  }
+  },
+  "license": "Apache"
 }
