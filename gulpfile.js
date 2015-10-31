@@ -41,11 +41,7 @@ var banner =
   'Author: <%= package.author.name %> - <%= package.author.twitter %>\n' +
   'Author URI: <%= package.author.url %>\n' +
   'Version: <%= package.version %>\n' +
-  'License: <%= package.license.type %>\n' +
-<<<<<<< HEAD
-=======
-  'License URI: <%= package.license.url %>\n' +
->>>>>>> ec72546da8478784f38aa4fa146446499a9d7779
+  'License: <%= package.license %>\n' +
   '*/\n\n'
 ;
 

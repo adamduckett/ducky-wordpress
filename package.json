@@ -25,5 +25,5 @@
     "gulp-sass": "^2.0.4",
     "gulp-util": "^3.0.6"
   },
-  "license": "Apache"
+  "license": "MIT"
 }
