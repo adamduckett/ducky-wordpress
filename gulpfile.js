@@ -5,7 +5,7 @@
 // General
 var gulp = require('gulp');
 var plumber = require('gulp-plumber');
-var util = require('gulp-util');
+var gutil = require('gulp-util');
 var notify = require('gulp-notify');
 
 // Wordpress comment banner
@@ -49,11 +49,18 @@ var banner =
 /**
  * Gulp Tasks
  */
-
+// Error Handling
+var onError = function (err) {
+  gutil.beep();
+  console.log(err);
+  this.emit('end');
+};
 // Process, lint, prefix & minify Sass files
 gulp.task('sass', function() {
   return gulp.src(paths.styles.input)
-  .pipe(plumber())
+  .pipe(plumber({
+    errorHandler: onError
+  }))
   .pipe(sass({
     outputStyle: 'expanded',
     sourceComments: true
